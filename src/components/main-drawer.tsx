@@ -111,10 +111,10 @@ export function MainDrawer({ onDrawerStateChange, toc, goToHref, tocLoading }: M
 
       <div className="mt-auto flex flex-col items-center gap-3 mb-4">
         <Card className={`p-2 w-full ${isPinned ? "flex-row" : "flex-col"} items-center gap-2 bg-gray-200 dark:bg-gray-700`}>
-          <div className="w-10 h-10 rounded-full bg-blue-500 flex items-center justify-center text-white font-bold">HÖ</div>
+          <div className="w-10 h-10 rounded-full bg-blue-500 flex items-center justify-center text-white font-bold">IT</div>
           {isPinned && (
             <div className="flex flex-col items-start flex-grow">
-              <Typography variant="body1">Hasan Özçelik</Typography>
+              <Typography variant="body1">ITED Technology</Typography>
               <Button variant="ghost" size="sm" className="p-0 h-auto justify-start">
                 <Settings className="w-4 h-4 mr-1" />
                 Ayarlar
