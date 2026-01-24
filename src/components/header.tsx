@@ -17,7 +17,7 @@ export default function Header() {
           <ModeToggle />
         </li>
         <div className="relative inline-flex items-center justify-center w-10 h-10 overflow-hidden bg-blue-300 rounded-full text-white dark:bg-blue-700 dark:text-gray-100">
-          <span>HÖ</span>
+          <span>IT</span>
         </div>
       </ul>
     </div>
