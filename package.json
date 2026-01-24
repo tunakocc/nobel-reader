@@ -2,6 +2,14 @@
   "name": "tsl-e-shelf",
   "version": "0.1.0",
   "private": true,
+  "author": "ITED Technology LTD",
+  "license": "UNLICENSED",
+  "contributors": [
+    {
+      "name": "TechSoftLine",
+      "url": "https://techsoftline.com"
+    }
+  ],
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",

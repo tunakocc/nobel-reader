@@ -20,6 +20,10 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "tsl-e-shelf",
   description: "tsl-e-shelf tarafından oluşturuldu",
+  generator: "TechSoftLine",
+  other: {
+    "x-developed-by": "TechSoftLine",
+  },
 };
 
 export default function RootLayout({
@@ -29,6 +33,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="tr" suppressHydrationWarning>
+      {/* Developed by TechSoftLine - https://techsoftline.com */}
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
           <ProgressBarProvider>
